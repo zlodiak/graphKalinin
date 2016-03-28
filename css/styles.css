@@ -1,0 +1,50 @@
+/*
+INFO: 
+	project: graphKalinin
+	browsers: opera/chrome/FF/ie9/safari
+	width: 300
+	columns: ?
+	markup: Sergey Kalinin 03/2016 (prozaik81-2@yandex.ru)
+	use: jq, bootstrap
+	desc: 	
+	version 1
+*/	
+
+/****************************************************************************** COMMON_STYLES */
+
+
+/****************************************************************************** GLOBAL_layout */
+.main-container{
+	width: 100%;
+}
+
+	.navbar{
+
+	}
+
+	.content-container{
+
+	}
+
+/****************************************************************************** GLOBAL_blocks: canvas_graph */
+.canvas_graph{
+	background: cyan;
+}
+
+/****************************************************************************** GLOBAL_blocks: graphs */
+.graphs{
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+	.graphs .list-group-item{
+		cursor: pointer;
+	}
+
+	.graphs .badge{
+		display: none;
+	}
+
+	.graphs .btn-add{
+		margin-top: 10px;
+	}
